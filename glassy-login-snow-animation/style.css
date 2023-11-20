@@ -1,0 +1,92 @@
+
+body {
+  margin: 0; padding: 0;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgb(131, 83, 221);
+  font-family: sans-serif;
+  background-image: url('Resources/m1.jpg');
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+.container{
+  position: relative;
+}
+.container form{
+
+  background: rgba(255, 255, 255, 0);
+  border-radius: 16px;
+  box-shadow: 2px 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.5px);
+  -webkit-backdrop-filter: blur(5.5px);
+  border: 1px solid rgba(255, 255, 255, 0.41);           
+  padding: 30px 30px ;
+  min-height: 300px;    
+  min-width: 250px;
+  z-index: 100;
+  transition: 0.5s;
+      
+}
+.container form:hover{
+  transform: translateY(-30px);
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.container form:hover ~ .rainContainer .rain{
+  visibility: visible;
+}
+.container h3{padding: 0 5px 5px 5px; border-bottom: 5px solid rgb(47, 211, 45); display: inline-block; border-radius: 5px 10px; letter-spacing: 1.5px;}
+
+.rainContainer{ position: absolute; bottom: 30px; background: none; display: flex; justify-content: space-around; align-items: center; width: 100%; z-index: -1;}
+.rainContainer .rain{
+    padding: 5px;
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    animation: rainFall linear infinite ;            
+    animation-duration: calc(20s / var(--i));
+    visibility: hidden;
+}
+@keyframes rainFall {
+0%{  transform :  translateY(0) scale(1);  }
+10%{ box-shadow: 2px 2px 8px white;}
+60%{ transform : translateY(130px)   scale(0.5);  }
+80%{ box-shadow: 1px 1px 4px white; transform : translateY(170px);}
+100%{transform : translateY(180px)  scale(0);    }
+  
+}
+
+.elem{          
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.elem input{border: none; border-radius: 0 5px 5px 0 ; padding: 10px 5px; outline: none; width: 95%;}
+
+
+.elem img{
+  width: 24px;  
+  border: 1px solid white;    
+  padding: 5px;
+}
+form button{
+  background: rgb(42, 198, 48);
+  border: none;
+  width: 100%;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  font-size: 16px;
+  letter-spacing: 1px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+form button:hover{
+  scale: 1.06;
+  background-color: rgb(12, 224, 23);
+  box-shadow: 3px 3px 2px rgb(240, 240, 240);
+}
+a{
+    text-decoration: none;
+}
