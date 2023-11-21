@@ -4,6 +4,13 @@
 
 Explore a collection of my frontend projects showcasing the power of JavaScript, React, CSS, and HTML. From dynamic web applications to stylish user interfaces, this repository is a portfolio of my coding journey in the frontend development realm.
 
+
+## Top Picks - Tap to Explore:
+
+<a href="https://nithishgitsrc.github.io/Frontend-Works-Showcase/glassy-login-snow-animation/">
+<img src="https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/6b33b9cf-e1bc-4a51-a90e-aba8c5e2d5f0.png"  width =300 height=300 />
+</a>
+ 
 ## Features:
 
 - **JavaScript Magic**: Witness the artistry of JavaScript in crafting interactive and dynamic elements that bring web pages to life.
