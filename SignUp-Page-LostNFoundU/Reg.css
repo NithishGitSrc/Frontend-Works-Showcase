@@ -1,0 +1,131 @@
+*{padding: 0; margin: 0;}
+html{overflow: hidden;}
+body{
+position: relative;
+min-height: 100vh;
+background: rgb(78,89,209);
+background: radial-gradient(circle, rgba(78,89,209,1) 0%, rgba(123,180,252,1) 60%, rgba(183,145,255,1) 100%);
+font-family: sans-serif;
+display: flex;
+justify-content: center;
+align-items: center;
+overflow: hidden;
+}
+
+#float{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#float .box{
+    position: relative;
+    bottom: -400px;
+    padding: 10px;
+    border-radius: 10px;
+    background: rgb(203, 203, 203);
+    background: radial-gradient(circle, rgba(212, 210, 210, 0.494) 0%, rgba(237, 232, 232, 0.6) 100%);
+    animation: float 10s linear infinite;
+    animation-duration: calc(300s/var(--i));    
+    transition: 0.3s;
+   
+}
+#float .box img{height: 64px;}
+
+@keyframes float {
+    0%  { transform: translateY(0px)  rotate(30deg) scale(1);   }
+    40%  { transform: translateY(-500px)  translateX(50px) rotate(180deg) ;  }
+    70% { transform: translateY(-900px) translateX(80px) rotate(360deg) ; }
+    100%{ transform: translateY(-2300px) translateX(90px) rotate(580deg) scale(0);   }
+  }
+
+
+form{
+    position: relative;
+    padding: 30px 30px;
+    background-color: white;
+    min-height: 300px;
+    border-radius: 5px;
+   box-shadow: -4px 4px 10px rgb(215, 215, 215), 4px -4px 10px rgb(215, 215, 215);
+   z-index: 1000000;
+}
+#vitLogo{
+    position: absolute;
+    top: -90px;
+    border-radius: 90%;
+    background-color: white;
+    border-top: 2px  solid rgb(83, 82, 82);
+}
+form .field{
+    position: relative;
+    margin: 20px 0;
+}
+form .field h3{display: inline-block; border-bottom: 4px solid rgb(110, 47, 236); padding-bottom: 2px; border-radius: 4px;}
+form .field h4{ margin-bottom: 10px;}
+form .field input {
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    font-size: 16px;
+    padding: 5px 2px;
+    background-image: url('../Resources/user.png');
+    background-repeat: no-repeat;
+    background-position: left center; 
+    padding-left: 30px; 
+    background-size: 24px 24px;
+    transition: 0.3s;
+}
+form .field span.border {
+    position: absolute;
+    bottom: 0;
+    left: 50%; /* Set the left position to the middle */
+    transform: translateX(-50%); /* Center the span horizontally */
+    width: 0;
+    background-color: #000; /* Change to your desired border color */
+    transition: 0.5s;
+}
+
+form .field input:focus ~ span,form .field:hover > span {
+    border-radius: 100px;
+    transform: scale(1.1) translateY(2px);
+    width: 98%;
+    left: 0; /* Set the left position to expand from the middle to the left */
+    border: 2px solid black;
+}
+
+
+form .field input:hover, form .field input:focus{
+    transform: scale(1.1);
+    border-radius: 6px;
+    box-shadow: 3px 5px 3px rgb(121, 121, 121);
+}
+form .regCont{
+    text-align: center;
+    font-size: 12px;
+}
+form #regBtn{
+    display: flex; justify-content: center;
+    
+}
+
+form button{
+    background-color: rgb(32, 205, 66);
+    border: none;
+    border-radius: 5px;
+    padding: 6px 12px;
+    color: white;
+    font-weight: bold;
+    letter-spacing: 1px;
+    font-size: 16px;
+    margin-bottom:7px ;
+    transition: 0.5s;
+    cursor: pointer;
+}
+form button:hover{
+    background-color:rgb(13, 179, 46) ;
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px rgb(56, 56, 56);
+}
+
