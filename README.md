@@ -5,11 +5,17 @@
 Explore a collection of my frontend projects showcasing the power of JavaScript, React, CSS, and HTML. From dynamic web applications to stylish user interfaces, this repository is a portfolio of my coding journey in the frontend development realm.
 
 
-## Top Picks - Tap to Explore:
+## Top Picks - Tap to Demo:
 
-<a href="https://nithishgitsrc.github.io/Frontend-Works-Showcase/glassy-login-snow-animation/">
-<img src="https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/6b33b9cf-e1bc-4a51-a90e-aba8c5e2d5f0.png"  width =300 height=300 />
+<a target="_blank" href="https://nithishgitsrc.github.io/Frontend-Works-Showcase/glassy-login-snow-animation/">
+<img src="https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/6b33b9cf-e1bc-4a51-a90e-aba8c5e2d5f0.png"   height=260 />
 </a>
+
+<a target="_blank" href="https://nithishgitsrc.github.io/Frontend-Works-Showcase/SignUp-Page-LostNFoundU/SignUp.html">
+<img src="https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/34191659-4282-402d-83b3-74225f6c0983.png"  height=260/>
+</a>
+
+
  
 ## Features:
 
