@@ -8,7 +8,7 @@ Explore a collection of my frontend projects showcasing the power of JavaScript,
 ## Top Picks - Tap to Demo:
 
 <a target="_blank" href="https://nithishgitsrc.github.io/Frontend-Works-Showcase/glassy-login-snow-animation/">
-<img src="https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/6b33b9cf-e1bc-4a51-a90e-aba8c5e2d5f0.png"   height=240 />
+<img src="https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/27b98f2c-d978-4e62-b61e-5cfba4253fcc.png"   height=240 />
 </a>
 
 <a target="_blank" href="https://nithishgitsrc.github.io/Frontend-Works-Showcase/SignUp-Page-LostNFoundU/SignUp.html">
