@@ -17,7 +17,7 @@ Explore a collection of my frontend projects showcasing the power of JavaScript,
 
 
 <a target="_blank" href="https://nithishgitsrc.github.io/Frontend-Works-Showcase/Veggies-Card-Design/index.html">
-<img src="https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/22894a23-3513-4899-af98-8a98065c199a.png"  height=180 width="300"/>
+<img src="https://raw.githubusercontent.com/NithishGitSrc/Frontend-Works-Showcase/main/Veggies-Card-Design/ScreenShots/card%20hover.png"  height=180 width="300"/>
 </a>
 
 </div>
