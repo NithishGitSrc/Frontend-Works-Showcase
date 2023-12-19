@@ -1,0 +1,151 @@
+body{
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: #FF3CAC;
+    background-image: linear-gradient(225deg, #FF3CAC 0%, #784BA0 50%, #2B86C5 100%);
+    
+}
+
+.fcc{
+display: flex; justify-content: left; align-items: center;
+}
+.card_con{
+    position: relative;
+    border: 1px solid #C2C2C2;
+    width : 170px;
+    min-height: 100px;
+    padding: 25px;
+    border-radius: 10px;
+    font-family : "Trebuchet MS", Helvetica, sans-serif;
+    display: inline-block;
+    cursor: pointer;
+    transition: 0.5s;
+    margin: 20px 10px;
+    box-shadow: 0 0 6px #CFCFCF;
+    background: white;
+    border: 1px solid rgb(155, 153, 153);
+}
+.card_con:before{
+
+    position: absolute;
+    top: 0;
+    right: 0;
+    content: 'BUY';
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 4px;
+    font-weight: bold;
+    height: 50px;
+    width: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 10px;
+    background: #35CC27;
+    transition: 0.3s;
+
+
+}
+.card_con:hover::before{
+    content: "BUY";
+    background: #000;
+    color: #fff;
+    box-shadow: -2px 1px 4px #F7F7F7;
+}
+
+.card_con:hover{
+    border : 2px outset #1CCC33;
+    box-shadow:  0 11px 19px -8px #808080;
+    transform:  translateY(-20px)  ;
+    background: #19192A;
+    color: white;
+    scale: 1.05;
+}
+
+.card_con:hover .des{ color: white;  }
+
+
+.prd_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.prd_img img{
+   height : 140px;
+   width: auto;
+}
+.vegmark{
+    width: 14px; height: 14px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.card_con p,h2 {
+    line-height:0.4;
+    letter-spacing: 1PX;
+}
+.card_con .fresh
+{
+     margin-top: -2px;
+     margin-bottom: -3px;
+     color: #00A32C;
+     font-size: 13px;
+     font-weight: bold;
+ }
+.card_con input { text-align: center; border: none;}
+
+.card_con input[type=text] {
+      min-width: 50px;
+      border: 1px solid #A8A8A8;
+      border-radius : 5px;
+}
+
+.card_con input[type=button] {
+
+      background: #25E000;
+      color: white;
+      font-weight: bold;
+      font-size: large;
+      border-radius : 5px;
+      width : 40px;
+      height: 20px;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+
+}
+.quantity_con{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.des{
+    width: 100%;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size : 15px;
+    border-bottom : 1px solid #D9D9D9;
+    padding-bottom: 5px;
+    box-shadow:  0 13px 16px -9px #D9D9D9;
+    font-weight: bold;
+    color:  #6B6B6B;
+}
+.des .rating{
+    background : #00C71E;
+    color: white;
+    padding: 1px;
+    padding-left:4px;
+    padding-right:4px;
+    font-weight: bold;
+    border-radius: 3px;
+}
