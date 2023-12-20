@@ -14,9 +14,8 @@ Link 👉 : [Veggies-Card-Design](https://nithishgitsrc.github.io/Frontend-Works
 
 ## Screenshots
 
-<img src="https://raw.githubusercontent.com/NithishGitSrc/Frontend-Works-Showcase/main/Veggies-Card-Design/ScreenShots/card%20hover.png"   />
-<img src="https://raw.githubusercontent.com/NithishGitSrc/Frontend-Works-Showcase/main/Veggies-Card-Design/ScreenShots/cards.png"   />
-
+![card hover](https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/e2d194e7-e9dd-4210-b2fb-8ef36fc51738)
+![cards](https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/ce11612e-9923-49fc-8e3a-aa6b6b1dd477)
 
 
 ## Technologies Used
