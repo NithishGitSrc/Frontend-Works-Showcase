@@ -17,7 +17,7 @@ Explore a collection of my frontend projects showcasing the power of JavaScript,
 
 
 <a target="_blank" href="https://nithishgitsrc.github.io/Frontend-Works-Showcase/Fresh Fruits CSS & HTML5/index.html">
-<img src="https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/92027a2a-8595-4f9e-8bdb-8af56128da47"  height=180 width="300"/>
+<img src="https://github.com/NithishGitSrc/Frontend-Works-Showcase/assets/126682106/92027a2a-8595-4f9e-8bdb-8af56128da47.png"  height=180 width="300"/>
 </a>
 
 </div>
